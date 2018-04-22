@@ -1,5 +1,5 @@
 /* Styling for index page */
-.container-fluid {
+.container {
 	height: 100vh;
 }
 
@@ -15,10 +15,17 @@
     padding: 20px;
 }
 
+#indeximg {
+    padding: 8px;
+    width: 200px;
+    height; 200px;
+}
+
 #header {
 	text-align: center; 
-	background-color: lightgrey; 
-	height: 78px;
+	background: linear-gradient(to right, white, lightblue, white); 
+	height: 100px;
+    
 }
 
 h1 {
