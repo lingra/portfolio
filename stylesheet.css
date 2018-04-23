@@ -1,6 +1,8 @@
 /* Styling for index page */
 .container {
 	height: 100vh;
+    background-color: aliceblue;
+    box-shadow: 0 0 15px 10px aliceblue;
 }
 
 #miniproject {
@@ -23,11 +25,58 @@
 
 #header {
 	text-align: center; 
-	background: linear-gradient(to right, white, lightblue, white); 
+	background: linear-gradient(to right, aliceblue, lightblue, aliceblue); 
+    box-shadow: 0 0 15px 10px aliceblue;
 	height: 100px;
-    
+    padding: 10px 10px 0px 10px;
+    vertical-align: middle;
 }
 
+@media screen and (max-width: 760px) {
+	#header {
+		margin-top: 0px;
+		padding-bottom: 10px;
+	}
+}
+
+/* Navbar */
+#navbar {
+    background: linear-gradient(to right, aliceblue, lightblue, aliceblue);
+    box-shadow:
+		inset 10px 0px 10px -7px aliceblue,
+		inset -10px 0px 10px -7px aliceblue;
+	width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+}
+
+#navbar li {
+    float: left;
+    display: inline;
+}
+
+#navbar a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: darkblue;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Other*/
 h1 {
 	font-weight: bold;
 }
@@ -45,6 +94,7 @@ h1 {
 
 body {
 	font-family: 'Varela Round', sans-serif;
+    background: linear-gradient(to right, lightblue, white, lightblue);
 }
 
 h4 {
