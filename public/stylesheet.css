@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+miniproject:hover { 
+   opacity: 0.7;
+}
+
 .weblink {
     color: darkblue;
     font-size: 30px;
@@ -90,6 +94,11 @@ h1 {
 		margin-top: 0px;
 		padding-top: 20px;
 	}
+}
+
+.imgBig {
+    padding: 20px;
+    width= 100px;
 }
 
 body {
