@@ -46,10 +46,10 @@
 		inset 10px 0px 10px -7px aliceblue,
 		inset -10px 0px 10px -7px aliceblue;
 	width: 100%;
-    list-style-type: none;
     overflow: hidden;
-    text-align: center;
     font-size: 18px;
+    left: 0;
+    right: 0;
 }
 
 #navbar li {
