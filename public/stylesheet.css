@@ -1,18 +1,11 @@
 /* Styling for index page */
-.container {
+.container-fluid {
 	height: 100vh;
     background-color: aliceblue;
     box-shadow: 0 0 15px 10px aliceblue;
 }
 
-#miniproject {
-    align-content: center;
-    text-align: center;
-}
 
-miniproject:hover { 
-   opacity: 0.7;
-}
 
 .weblink {
     color: darkblue;
@@ -43,42 +36,6 @@ miniproject:hover {
 	}
 }
 
-/* Navbar */
-#navbar {
-    background: linear-gradient(to right, aliceblue, lightblue, aliceblue);
-    box-shadow:
-		inset 10px 0px 10px -7px aliceblue,
-		inset -10px 0px 10px -7px aliceblue;
-	width: 100%;
-    overflow: hidden;
-    font-size: 18px;
-    left: 0;
-    right: 0;
-}
-
-#navbar li {
-    float: left;
-    display: inline;
-}
-
-#navbar a {
-    display: block;
-    color: darkblue;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-#navbar li a:hover {
-    background-color: darkblue;
-    text-decoration: none;
-    color: white;
-}
-
-#navbar .active {
-    background-color: #4CAF50;
-    color: white;
-}
 
 /*Other*/
 h1 {
@@ -86,7 +43,6 @@ h1 {
 }
 
 #gallery {
-    padding: 30px;
 }
 
 @media screen and (max-width: 760px) {
@@ -104,6 +60,7 @@ h1 {
 body {
 	font-family: 'Varela Round', sans-serif;
     background: linear-gradient(to right, lightblue, white, lightblue);
+    height: 100%;
 }
 
 h4 {

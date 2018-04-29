@@ -3,6 +3,7 @@ import './PuzzleTower.css';
 import {modelInstance} from '../data/portfolioModel';
 import { Link } from 'react-router-dom';
 import ImgLogo from "../images/escapetower.png";
+import Navbar from '../Navbar/Navbar';
 
 
 class PuzzleTower extends Component {
@@ -17,10 +18,10 @@ class PuzzleTower extends Component {
                                   
       var Weblink = "https://people.kth.se/~oliben/puzzletower/";
       
-      var Members = ["Lukas Saari", "Linnéa Granlund", "Nicolas Zimmermann", "Linette Nilsson", "Olivia Bengtsson", "Thibault Laval"];
-      var MemberDiv = Members.map((member) => <li>{member}</li>);
+      
       return (
           <div>
+              <Navbar />
               <div class="row">
                   <div class="col-sm-2"></div>
                   <div class="col-sm-4">
@@ -28,6 +29,7 @@ class PuzzleTower extends Component {
                   </div>
                   <div class="col-sm-4">
                       <h3>{TitleProject}</h3>
+                      <h4>Members</h4>
                       {MemberDiv}
                       
                   </div>
@@ -37,6 +39,7 @@ class PuzzleTower extends Component {
               <div class="row">
                   <div class="col-sm-2"></div>
                   <div className="col-sm-6" id="descriptionDiv">
+                      <h4>Description</h4>
                       <p>{Description}</p>
                   </div>
                   <div class="col-sm-4"></div>

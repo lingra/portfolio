@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import PuzzleImg from "../images/escapetower.png";
 import GlobalImg from "../images/globalgoals.png";
 import MyFaveImg from "../images/camera.png";
+import Navbar from "../Navbar/Navbar";
 
 
 class Start extends Component {
@@ -14,28 +15,28 @@ class Start extends Component {
       return (
           <div>
             <div class="row" id="gallery">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3" id="miniproject">
+                <div class="col-sm-3">
+                    <Navbar />
+                </div>
+                <div class="col-sm-2" id="miniproject">
                     <Link to="/puzzleTower">
                         <img src={PuzzleImg} id="indeximg" />
                     </Link>
+                        <div class="overlay">Puzzle Tower VR</div>
                 </div>
-                <div class="col-sm-3" id="miniproject">
+                <div class="col-sm-2" id="miniproject">
                     <Link to="/GlobalGoals">
                         <img src={GlobalImg} id="indeximg" />
                     </Link>
+                        <div class="overlay">Global Goals - BTS</div>
                 </div>
-                <div class="col-sm-3" id="miniproject">
-                    <Link to="myFaveDb.html">
+                <div class="col-sm-2" id="miniproject">
+                    <Link to="myFaveDb">
                         <img src={MyFaveImg} id="indeximg" />
                     </Link>
+                        <div class="overlay">M(yFave)Db</div>
                     <p>Ongoing project</p>
                 </div>
-                <div class="col-sm-1"></div>
-            </div>
-            
-            <div class="aboutMe">
-             About me
             </div>
           </div>
       );

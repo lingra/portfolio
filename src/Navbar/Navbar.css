@@ -1,0 +1,32 @@
+/* Navbar */
+#navbar {
+    background: lightblue;
+	width: 100%;
+    font-size: 18px;
+    height: 100vh;
+}
+
+#navbar li {
+    float: left;
+    display: inline;
+    line-height: 300%;
+}
+
+#navbar a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: darkblue;
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .active {
+    background-color: #4CAF50;
+    color: white;
+}

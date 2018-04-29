@@ -9,9 +9,6 @@ import Start from './Start/Start';
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      title: 'My(fav)db'
-    }
   }
 
   render() {
