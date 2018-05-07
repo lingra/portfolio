@@ -7,17 +7,24 @@ class Navbar extends Component {
 
   render() {
       
+      var aboutme = "My name is Linnéa Granlund and I'm studying right now the Media Technology program at KTH";
+      
       return (
-          <div class="col-sm-12" id="navbar">
-              <ul id="navbar">
-                  <Link to="/">
-                      <li>Home</li>
-                  </Link>
-                  <Link to="About">
-                      <li>About Me</li>
-                  </Link>
-                  
-              </ul>
+          <div class="row">
+              <div class="col-sm-3" id="navbar">
+                  <div class="row">
+                      <div class="col-sm-12" id="navItem">
+                          <Link to="/">
+                              <li>Home</li>
+                          </Link>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-12" id="aboutme">
+                          {aboutme}
+                      </div>
+                  </div>
+              </div>
           </div>
       );
   }

@@ -18,23 +18,30 @@ class MyFaveDb extends Component {
       var Description = "This is the project that we are doing right now in the course 'Interaction Programming and the Dynamic Web'. What we are doing is a movie webpage that uses an API to retrive information and a database storing user information and the lists the user creates. ";
                                   
       var Weblink = "https://myfavedb.herokuapp.com/";
+    
+      var contribution = "In this project, my contribution was the 'front-end' of react. I got html-skeletons and made reactpages of them";
       
       
       return (
-          <div>
-              <Navbar />
-              <div class="row">
-                  <div class="col-sm-2"></div>
-                  <div class="col-sm-4">
-                      <img id="imgBig" src={ImgLogo} />
-                  </div>
-                  <div class="col-sm-4">
-                      <h3>{TitleProject}</h3>
-                      <h4>Members</h4>
-                      {MemberDiv}
-                      
-                  </div>
-                  <div class="col-sm-2"></div>
+      <div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <Navbar />
+                </div>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-12" id="projTitle">
+                            <p>{TitleProject}</p>
+                        </div>
+                    </div>
+                      <div class="col-sm-6">
+                          <img id="imgBig" src={ImgLogo} />
+                      </div>
+                      <div class="col-sm-6">
+                          <h4>Members</h4>
+                          {MemberDiv}
+                      </div>
+                      <div class="col-sm-2"></div>
               </div>
               
               <div class="row">
@@ -42,20 +49,19 @@ class MyFaveDb extends Component {
                   <div className="col-sm-6" id="descriptionDiv">
                       <h4>Description</h4>
                       <p>{Description}</p>
-                  </div>
-                  <div class="col-sm-4"></div>
-              </div>
-              
-              <div class="row">
-                  <div class="col-sm-12">
-                      <p class="weblink">
+                      <h4>My contribution</h4>
+                      <p>{contribution}</p>
+                <div>
+                    <p class="weblink">
                           <a href={Weblink}>
                               {Weblink}
                           </a>
                       </p>
+                    </div>
                   </div>
+                  <div class="col-sm-4"></div>
               </div>
-            
+            </div>
                                       
           </div>
       );

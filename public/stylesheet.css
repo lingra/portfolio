@@ -77,3 +77,12 @@ h3 {
 hr {
 	border: 1px solid black;
 }
+
+
+
+#projTitle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    /*color: darkblue;*/
+}

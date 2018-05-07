@@ -15,27 +15,31 @@ class Start extends Component {
       return (
           <div>
             <div class="row" id="gallery">
-                <div class="col-sm-3">
+                <div class="col-sm-4">
                     <Navbar />
                 </div>
-                <div class="col-sm-2" id="miniproject">
-                    <Link to="/puzzleTower">
-                        <img src={PuzzleImg} id="indeximg" />
-                    </Link>
-                        <div class="overlay">Puzzle Tower VR</div>
-                </div>
-                <div class="col-sm-2" id="miniproject">
-                    <Link to="/GlobalGoals">
-                        <img src={GlobalImg} id="indeximg" />
-                    </Link>
-                        <div class="overlay">Global Goals - BTS</div>
-                </div>
-                <div class="col-sm-2" id="miniproject">
-                    <Link to="myFaveDb">
-                        <img src={MyFaveImg} id="indeximg" />
-                    </Link>
-                        <div class="overlay">M(yFave)Db</div>
-                    <p>Ongoing project</p>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-4" id="miniproject">
+                            <Link to="/puzzleTower">
+                                <img src={PuzzleImg} id="indeximg" />
+                            </Link>
+                                <div class="overlay">Puzzle Tower VR</div>
+                        </div>
+                        <div class="col-sm-4" id="miniproject">
+                            <Link to="/GlobalGoals">
+                                <img src={GlobalImg} id="indeximg" />
+                            </Link>
+                                <div class="overlay">Global Goals - BTS</div>
+                        </div>
+                        <div class="col-sm-4" id="miniproject">
+                            <Link to="myFaveDb">
+                                <img src={MyFaveImg} id="indeximg" />
+                            </Link>
+                                <div class="overlay">M(yFave)Db</div>
+                            <p>Ongoing project</p>
+                        </div>
+                    </div>
                 </div>
             </div>
           </div>
@@ -44,4 +48,3 @@ class Start extends Component {
 }
 
 export default Start;
-

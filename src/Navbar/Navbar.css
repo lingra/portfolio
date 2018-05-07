@@ -2,7 +2,6 @@
 #navbar {
     background: lightblue;
 	width: 100%;
-    font-size: 18px;
     height: 100vh;
 }
 
@@ -20,13 +19,12 @@
     text-decoration: none;
 }
 
-#navbar li a:hover {
-    background-color: darkblue;
-    text-decoration: none;
-    color: white;
+#navItem {
+    font-size: 18px;
+    
 }
 
-#navbar .active {
-    background-color: #4CAF50;
-    color: white;
+#aboutme {
+    text-align: left;
+    margin: 20px;
 }
