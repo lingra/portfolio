@@ -15,7 +15,7 @@ class MyFaveDb extends Component {
       
       var MemberDiv = Members.map((member) => <li>{member}</li>);
       
-      var Description = "This is the project that we are doing right now in the course 'Interaction Programming and the Dynamic Web'. What we are doing is a movie webpage that uses an API to retrive information and a database storing user information and the lists the user creates. ";
+      var Description = "This is the project that we made 2017 in the course 'Interaction Programming and the Dynamic Web'. This is a webpage where you can search for different movies in a database and create public lists with your movies.";
                                   
       var Weblink = "https://myfavedb.herokuapp.com/";
     

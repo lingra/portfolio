@@ -27,7 +27,7 @@ class Platniklas extends Component {
                 <div class="col-sm-4">
                     <Navbar />
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8" id="textcenter">
                     <div class="row">
                         <div class="col-sm-12" id="projTitle">
                             <p>{TitleProject}</p>
