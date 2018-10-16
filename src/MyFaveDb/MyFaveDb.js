@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './MyFaveDb.css';
 import {modelInstance} from '../data/portfolioModel';
 import { Link } from 'react-router-dom';
-import ImgLogo from "../images/camera.png";
+import ImgLogo from "../images/myFaveDb.png";
 import Navbar from '../Navbar/Navbar';
 
 

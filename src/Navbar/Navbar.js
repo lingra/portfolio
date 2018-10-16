@@ -7,7 +7,7 @@ class Navbar extends Component {
 
   render() {
       
-      var aboutme = "My name is Linnéa Granlund and I'm studying right now the Media Technology program at KTH";
+      var aboutme = "My name is Linnéa Granlund and right now, I'm studying my fifth year at the Media Technology program at KTH.";
       
       return (
           <div class="row">
@@ -20,9 +20,11 @@ class Navbar extends Component {
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col-sm-12" id="aboutme">
+                      <div class="col-sm-2"></div>
+                      <div class="col-sm-8" id="aboutme">
                           {aboutme}
                       </div>
+                      <div class="col-sm-2"></div>
                   </div>
               </div>
           </div>
