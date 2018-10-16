@@ -1,25 +1,24 @@
 import React, {Component} from 'react';
-import './MyFaveDb.css';
+import './Platniklas.css';
 import {modelInstance} from '../data/portfolioModel';
 import { Link } from 'react-router-dom';
-import ImgLogo from "../images/myFaveDb.PNG";
+import ImgLogo from "../images/camera.png";
 import Navbar from '../Navbar/Navbar';
 
 
-class MyFaveDb extends Component {
+class Platniklas extends Component {
 
   render() {
-      var TitleProject = "M(yFave)Db";
+      var TitleProject = "Plåtniklas";
       
-      var Members = ["Emma Åkesson", "Linnéa Granlund", "Okra Livia Inkeri Dimbe", "Melanie Bonnaudet"];
-      
+      var Members = ["Linnéa Granlund", "Petra Olsson", "Anton Martinsson", "Olivia Bengtsson", "Viktor Ceder"];
       var MemberDiv = Members.map((member) => <li>{member}</li>);
       
-      var Description = "This is the project that we are doing right now in the course 'Interaction Programming and the Dynamic Web'. What we are doing is a movie webpage that uses an API to retrive information and a database storing user information and the lists the user creates. ";
+      var Description = "This is a game we're right now developing in the 'Advanced graphics and interaction' course at KTH. Our goal with it is to combine VR and AR in a fun way. The game idea is that the VR player's goal is to destroy the city it is in. The character that he's playing is a robot (Plåtniklas) that collects building parts to evolve. The AR-players on the other hand are helicopter pilots and their goal is to stop the robot";
                                   
-      var Weblink = "https://myfavedb.herokuapp.com/";
-    
-      var contribution = "In this project, my contribution was the 'front-end' of react. I got html-skeletons and made reactpages of them";
+      var Weblink = "";
+                                  
+    var contribution = "Until now, I've mainly been in charge for dokumentation. I've also made some programming to the VR-part of the game for example positioning the robot's parts and modeled explosions."
       
       
       return (
@@ -68,5 +67,4 @@ class MyFaveDb extends Component {
   }
 }
 
-export default MyFaveDb;
-
+export default Platniklas;

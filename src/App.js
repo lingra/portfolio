@@ -4,6 +4,7 @@ import { modelInstance } from './data/portfolioModel';
 import PuzzleTower from './PuzzleTower/PuzzleTower';
 import GlobalGoals from './GlobalGoals/GlobalGoals';
 import MyFaveDb from './MyFaveDb/MyFaveDb';
+import Platniklas from './Platniklas/Platniklas';
 import Start from './Start/Start';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/PuzzleTower" render={() => <PuzzleTower model={modelInstance}/>}/>
             <Route path="/GlobalGoals" render={() => <GlobalGoals model={modelInstance}/>}/>
             <Route path="/MyFaveDb" render={() => <MyFaveDb model={modelInstance}/>}/>
+            <Route path="/Platniklas" render={() => <Platniklas model={modelInstance}/>}/>
         </div>
     );
   }

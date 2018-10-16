@@ -21,3 +21,8 @@
 .container:hover .overlay {
   opacity: 1;
 }
+
+.titleStart {
+    font-size: 22px;
+}
+
