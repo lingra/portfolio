@@ -27,7 +27,7 @@ class PuzzleTower extends Component {
                 <div class="col-sm-4">
                     <Navbar />
                 </div>
-                <div class="col-sm-8">
+                <div class="col-sm-8" id="imgPers">
                     <div class="row">
                         <div class="col-sm-12" id="projTitle">
                             <p>{TitleProject}</p>
@@ -43,7 +43,7 @@ class PuzzleTower extends Component {
                       <div class="col-sm-2"></div>
               </div>
               
-              <div class="row">
+              <div class="row" id="descCon">
                   <div class="col-sm-2"></div>
                   <div className="col-sm-6" id="descriptionDiv">
                       <h4>Description</h4>

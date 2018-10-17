@@ -8,7 +8,7 @@
 #navbar li {
     float: left;
     display: inline;
-    line-height: 300%;
+    
 }
 
 #navbar a {
@@ -32,4 +32,14 @@
 #profileimage {
     height: 25vh;
     border-radius: 150px;
+}
+
+#contactMe li{
+    float: left;
+    display: inline;
+    line-height: 300%;
+}
+
+#navLink a {
+    padding: 5px;
 }

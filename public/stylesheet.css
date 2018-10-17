@@ -3,6 +3,7 @@
 	height: 100vh;
     background-color: aliceblue;
     box-shadow: 0 0 15px 10px aliceblue;
+    overflow:hidden;
 }
 
 
@@ -22,6 +23,7 @@
 
 #header {
 	text-align: center; 
+    font-family: "Garamond";
 	background: linear-gradient(to right, aliceblue, lightblue, aliceblue); 
     box-shadow: 0 0 15px 10px aliceblue;
 	height: 100px;
@@ -34,6 +36,9 @@
 		margin-top: 0px;
 		padding-bottom: 10px;
 	}
+    .container-fluid {
+        overflow: auto;
+    }
 }
 
 
