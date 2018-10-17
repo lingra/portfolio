@@ -6,6 +6,7 @@ import PuzzleTower from './PuzzleTower/PuzzleTower';
 import GlobalGoals from './GlobalGoals/GlobalGoals';
 import MyFaveDb from './MyFaveDb/MyFaveDb';
 import Platniklas from './Platniklas/Platniklas';
+import RGBSW from './rgbsw/rgbsw';
 import Start from './Start/Start';
 
 
@@ -27,6 +28,7 @@ class App extends Component {
               <Route path="/GlobalGoals" render={() => <GlobalGoals model={modelInstance}/>}/>
               <Route path="/MyFaveDb" render={() => <MyFaveDb model={modelInstance}/>}/>
               <Route path="/Platniklas" render={() => <Platniklas model={modelInstance}/>}/>
+              <Route path="/RGBSW" render={() => <RGBSW model={modelInstance}/>}/>
           </div>
     );
   }

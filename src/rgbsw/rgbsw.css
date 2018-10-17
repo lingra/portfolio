@@ -1,0 +1,16 @@
+#imgBigBig {
+    width: 95%;
+    
+}
+
+#imageDiv {
+    align-content: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 766px) {
+	#imgBigBig {
+    width: 100%;
+    
+}
+}

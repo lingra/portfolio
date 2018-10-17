@@ -6,6 +6,7 @@ import PuzzleImg from "../images/escapetower.png";
 import GlobalImg from "../images/globalgoals.png";
 import MyFaveImg from "../images/myFaveDb.PNG";
 import Platniklas from "../images/camera.png";
+import rgbsw from "../images/rgbsw1.PNG";
 import Navbar from "../Navbar/Navbar";
 
 
@@ -40,6 +41,7 @@ class Start extends Component {
                             <div class="overlay">M(yFave)Db</div>
                         </div>
                     </div>
+                    
                     <div class="row">
                         <div class="col-sm-4" id="miniproject">
                             <div class="titleStart">Puzzle Tower</div>
@@ -59,10 +61,20 @@ class Start extends Component {
                             </Link>
                             <div class="overlay">Plåtniklas</div>
                         </div>
+                        <div class="col-sm-4" id="miniproject">
+                            <Link to="rgbsw">
+                                <img src={rgbsw} id="indeximg" />
+                            </Link>
+                            <div class="overlay">RGBSW</div>
+                        </div>
                     </div>
+                    
                     <div class="row">
                         <div class="col-sm-4" id="miniproject">
                             <div class="titleStart">Plåtniklas</div>
+                        </div>
+                        <div class="col-sm-4" id="miniproject">
+                            <div class="titleStart">RGBSW</div>
                         </div>
                     </div>
                 </div>
