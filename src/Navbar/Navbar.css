@@ -43,3 +43,23 @@
 #navLink a {
     padding: 5px;
 }
+
+@media screen and (max-width: 766px) {
+    #aboutme {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #imgPers {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #navbar {
+        height: auto;
+    }
+    
+    #profileimage {
+        height: 20vh;
+    }
+}

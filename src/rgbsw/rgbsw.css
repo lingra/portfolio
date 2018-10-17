@@ -1,6 +1,5 @@
 #imgBigBig {
     width: 95%;
-    
 }
 
 #imageDiv {
@@ -10,7 +9,23 @@
 
 @media screen and (max-width: 766px) {
 	#imgBigBig {
-    width: 100%;
+        width: 100%;
+        padding: 0px;
+    }
     
+    #descriptionDiv {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #imgPers {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
 }
+
+#rgbswLink {
+    font-size: 25px;
+    padding-top: 0px;
 }

@@ -13,11 +13,11 @@ class rgbsw extends Component {
       
       var MemberDiv = "";
       
-      var Description = "This is a film project that is shown each reception at Media Technology. I've been part of it 2 years, 2015 and 2016.";
+      var Description = "This is an annual film project that is shown at each reception at Media Technology. The main story is that the world is threatened by the villans Black and White (Swart och Wit) and the only ones that can save it is the superheroes Red, Green and Blue (Röd, Grön och Blå). 2015 they had magic wands and 2016 they had laser swords. I've been part of it 2 years, 2015 and 2016.";
                                   
       var Weblink = "https://www.youtube.com/channel/UCbtkucygEdgySTaAkC9P4oQ";
-                                  
-    var contribution = "I've been doing a little of everything. Both filming and doing post production in Adobe Premiere and After Effects."
+      
+      var contribution = "I've been doing a little of everything. Both filming and doing post production in Adobe Premiere and After Effects."
       
       
       return (
@@ -45,18 +45,20 @@ class rgbsw extends Component {
                       <p>{Description}</p>
                       <h4>My contribution</h4>
                       <p>{contribution}</p>
-                <div>
-                    <p class="weblink">
-                          <a href={Weblink}>
-                              {Weblink}
-                          </a>
-                      </p>
-                    </div>
+                      <div>
+                          <br />
+                          <p>Here's the videos from 2015:</p>
+                          <p class="weblink" id="rgbswLink">
+                              <a href={Weblink}>
+                                  {Weblink}
+                              </a>
+                          </p>
+                      </div>
                   </div>
-                  <div class="col-sm-4"></div>
+                  <div className="col-sm-4">
+                  </div>
+                </div>
               </div>
-            </div>
-                                      
           </div>
       );
   }

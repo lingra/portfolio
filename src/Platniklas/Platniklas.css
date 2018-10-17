@@ -1,3 +1,21 @@
 .textcenter {
     text-align: center;
 }
+
+@media screen and (max-width: 766px) {
+    #descriptionDiv {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #imgPers {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #members {
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+}
