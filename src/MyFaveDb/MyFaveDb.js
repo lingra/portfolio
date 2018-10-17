@@ -53,7 +53,7 @@ class MyFaveDb extends Component {
                       <p>{contribution}</p>
                 <div>
                     <p class="weblink">
-                          <a href={Weblink}>
+                          <a href={Weblink} target="_blank">
                               {Weblink}
                           </a>
                       </p>

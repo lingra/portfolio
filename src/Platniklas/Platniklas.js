@@ -36,7 +36,7 @@ class Platniklas extends Component {
                       <div class="col-sm-6">
                           <img id="imgBig" src={ImgLogo} />
                       </div>
-                      <div class="col-sm-6">
+                      <div class="col-sm-6" id="members">
                           <h4>Members</h4>
                           {MemberDiv}
                       </div>
@@ -52,7 +52,7 @@ class Platniklas extends Component {
                       <p>{contribution}</p>
                 <div>
                     <p class="weblink">
-                          <a href={Weblink}>
+                          <a href={Weblink} target="_blank">
                               {Weblink}
                           </a>
                       </p>

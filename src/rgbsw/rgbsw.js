@@ -49,7 +49,7 @@ class rgbsw extends Component {
                           <br />
                           <p>Here's the videos from 2015:</p>
                           <p class="weblink" id="rgbswLink">
-                              <a href={Weblink}>
+                              <a href={Weblink} target="_blank">
                                   {Weblink}
                               </a>
                           </p>
