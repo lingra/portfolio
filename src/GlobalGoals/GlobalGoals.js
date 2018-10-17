@@ -14,7 +14,7 @@ class GlobalGoals extends Component {
       
       var MemberDiv = Members.map((member) => <li>{member}</li>);
       
-      var Description = "This is the project that we made in the course 'Information Technology. The Global Goals is created by the UN. This is a visualization in how the different goals affect each other.";
+      var Description = "This is the project that we made in the course 'Information Technology. This is a visualization in how the different Global Goals affect each other. We got the data from Stockholm Environmental Institute.";
                                   
       var Weblink = "https://galnegus.github.io/ziba/about";
                                   
